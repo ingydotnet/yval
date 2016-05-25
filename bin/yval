@@ -1,0 +1,5 @@
+#!/usr/bin/env coffee
+
+require '../lib/yval'
+
+(new YVal).run process.argv[2..]

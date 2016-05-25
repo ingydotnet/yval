@@ -1,0 +1,35 @@
+=meta: 0.0.2
+
+name: yval
+version: 0.0.1
+abstract: YAML Validator
+homepage: http://yval.org
+tag: [yaml, json, schema, lint, validate]
+license: MIT
+copyright: 2016
+
+author:
+  name: Ingy döt Net
+  email: ingy@ingy.net
+  homepage: http://ingy.net
+  github: ingydotnet
+  twitter: ingydotnet
+  freenode: ingy
+
+devel:
+  git: https://github.com/ingydotnet/yval
+  bug: https://github.com/ingydotnet/yval/issues
+  irc: irc.freenode.net#yaml
+
+=npm:
+  engines:
+    node: '>=0.4.0'
+  dependencies:
+    argparse: '>=0'
+    lodash: '>=0'
+    js-yaml: '>=0'
+    yamljs: '>=0'
+  devDependencies:
+    coffee-script: '>=1.3.3'
+  scripts:
+    test: coffee -e '(require "./test/lib/Test/Harness").run()' test
