@@ -1,7 +1,7 @@
 =meta: 0.0.2
 
 name: yval
-version: 0.0.2
+version: 0.0.3
 abstract: YAML Validator
 homepage: http://yval.org
 tag: [yaml, json, schema, lint, validate]

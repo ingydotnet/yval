@@ -2,7 +2,7 @@ require './prelude'
 fs = require 'fs'
 
 class global.YVal
-  version: '0.0.1'
+  version: '0.0.3'
 
   run: (args)->
     @get_opt args
