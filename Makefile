@@ -64,7 +64,7 @@ distdir: clean dist
 disttest: distdir
 	(cd $(DISTDIR); npm test) && rm -fr npm
 
-publish: check-release dist
+publish: doc check-release dist
 	npm publish $(DIST)
 	git tag $(VERSION)
 	git push --tag

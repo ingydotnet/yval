@@ -17,6 +17,12 @@ Validator, Translator and Formatter for YAML, JSON, and Others
 The `yval` tool is a validator, translator and formatter for YAML, JSON, CSV
 and TSV data.
 
+= Installation
+
+The `yval` command is currently written in NodeJS. To install it, run:
+
+    > npm install -g yval
+
 = Usage
 
 The `yval` command takes a data file as input and:

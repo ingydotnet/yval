@@ -1,4 +1,10 @@
 ---
+version: 0.0.2
+date:    Wed May 25 15:39:25 PDT 2016
+changes:
+- Fix bin section of package.json
+- Add Installation section to doc
+---
 version: 0.0.1
 date:    Wed May 25 13:54:41 PDT 2016
 changes:

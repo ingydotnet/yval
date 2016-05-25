@@ -1,7 +1,7 @@
 =meta: 0.0.2
 
 name: yval
-version: 0.0.1
+version: 0.0.2
 abstract: YAML Validator
 homepage: http://yval.org
 tag: [yaml, json, schema, lint, validate]
@@ -22,6 +22,8 @@ devel:
   irc: irc.freenode.net#yaml
 
 =npm:
+  bin:
+    yval: ./bin/yval
   engines:
     node: '>=0.4.0'
   dependencies:
