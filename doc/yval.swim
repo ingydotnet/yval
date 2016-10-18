@@ -8,9 +8,9 @@ Validator, Translator and Formatter for YAML, JSON, and Others
     # Check if a YAML file is well-formed:
     > yval file.yaml
     # Validate a YAML file against a schema:
-    > yval file.yaml --schema=myformat.schemat
+    > yval file.yaml --schema=myformat.yval
     # Validate a YAML file against a schema:
-    > yval file.yaml --schema=myformat.schemat
+    > yval file.yaml --schema=myformat.yval
 
 = Description
 
@@ -27,12 +27,12 @@ The `yval` command is currently written in NodeJS. To install it, run:
 
 The `yval` command takes a data file as input and:
 
-* With no options, loads it and reports whether it is well-formed
-* With `--schema=...` option will lint/validate it against a schema
-* With `--to=...` option will write data to stdout in the specified format
+* With no options, load it and report whether it is well-formed.
+* With `--schema=...` option, lint/validate it against the schema.
+* With `--to=...` option, write it to stdout in the specified format.
 
-If input data is valid, `yval` will return `0` as the exit code; else it will
-return `1`.
+If the input data is valid, `yval` will return `0` as the exit code; else it
+will return `1`.
 
 = Command Options
 
